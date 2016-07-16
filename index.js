@@ -1,0 +1,1 @@
+var iDo = function () {};

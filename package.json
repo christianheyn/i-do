@@ -1,0 +1,33 @@
+{
+  "name": "i-do",
+  "version": "0.0.0",
+  "description": "No script in package.json anymore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint:js && npm run lint:js:test && node test.js",
+    "lint:js": "eslint index.js",
+    "lint:js:test": "eslint test.js",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianheyn/i-do.git"
+  },
+  "keywords": [
+    "no-script",
+    "package.json",
+    "task-runner"
+  ],
+  "devDependencies": {
+    "commitizen": "^2.8.2",
+    "cz-conventional-changelog": "^1.1.6",
+    "eslint": "^3.0.0",
+    "tape": "^4.6.0"
+  },
+  "author": "Christian Heyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianheyn/i-do/issues"
+  },
+  "homepage": "https://github.com/christianheyn/i-do#readme"
+}
